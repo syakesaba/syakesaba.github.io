@@ -42,6 +42,7 @@
         <ons-splitter>
             <ons-splitter-side id="menu_left" side="left" width="75%" collapse swipeable>
                 <ons-page>
+                    <ons-list-title>メニュー</ons-list-title>
                     <ons-list>
                         <ons-list-item onclick="splitter_left.load('home.html')" tappable>
                             ホーム
@@ -55,6 +56,7 @@
             <ons-splitter-side id="menu_right" side="right" width="75%" collapse swipeable>
                 <ons-page>
                     <ons-list>
+                        <ons-list-title>@RadicalFunction Twitter</ons-list-title>
                         <ons-list-item tappable>
                             <a class="twitter-timeline" href="https://twitter.com/RadicalFunction">Tweets by RadicalFunction</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </ons-list-item>
@@ -82,20 +84,21 @@
                         </ons-toolbar-button>
                     </div>
                 </ons-toolbar>
-                <div align="center">私は日本の大学に学士卒業論文の実名公開を要求する</div>
                 <ons-list>
+                    <ons-list-title>トップページ</ons-list-title>
                     <ons-list-header>プロフィール</ons-list-header>
                     <ons-list-item>
                         <div class="left">
-                            <ons-icon icon="fa-telegram" class="list-item__icon"></ons-icon>
+                            <img src="images/syake.jpg" style="zoom:0.3;" />
                         </div>
                         <div class="center">
-                            <a href="https://telegram.me/syakesaba">telegram.me/syakesaba</a>
+                            <div align="center">私は日本の大学に<br>学士卒業論文の<br>実名公開を要求する</div>
+                        </div>
+                        <div class="right">
+                            <div align="center"></div>
                         </div>
                     </ons-list-item>
-                </ons-list>
-                <ons-list>
-                    <ons-list-header>リンク集</ons-list-header>
+                    <ons-list-header>リンク</ons-list-header>
                     <ons-list-item>
                         <div class="left">
                             <ons-icon icon="fa-twitter" class="list-item__icon"></ons-icon>
@@ -118,6 +121,14 @@
                         </div>
                         <div class="center">
                             <a href="https://bitbucket.org/syakesaba/">bitbucket.org/syakesaba</a>
+                        </div>
+                    </ons-list-item>
+                    <ons-list-item>
+                        <div class="left">
+                            <ons-icon icon="fa-telegram" class="list-item__icon"></ons-icon>
+                        </div>
+                        <div class="center">
+                            <a href="https://telegram.me/syakesaba">telegram.me/syakesaba</a>
                         </div>
                     </ons-list-item>
                 </ons-list>
