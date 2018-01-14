@@ -44,11 +44,14 @@
                 <ons-page>
                     <ons-list-title>メニュー</ons-list-title>
                     <ons-list>
-                        <ons-list-item onclick="splitter_left.load('home.html')" tappable>
+                        <ons-list-item modifier="tappable" onclick="splitter_left.load('home.html')">
                             ホーム
                         </ons-list-item>
-                        <ons-list-item onclick="splitter_left.load('kiben.html')" tappable>
+                        <ons-list-item onclick="splitter_left.load('kiben.html')">
                             日本詭弁連合
+                        </ons-list-item>
+                        <ons-list-item onclick="splitter_left.load('contents.html')">
+                            成果物
                         </ons-list-item>
                     </ons-list>
                 </ons-page>
@@ -156,6 +159,41 @@
                     ・SYA-KE </br>
                     <b>・会員募集中</b></br>
                 </p>
+                <ons-bottom-toolbar>
+                    <div style="text-align: center; line-height: 44px">当サイトは一切責任を負いません</div>
+                </ons-bottom-toolbar>
+            </ons-page>
+        </template>
+        <template id="contents.html">
+            <ons-page>
+                <ons-toolbar>
+                    <div class="left">
+                        <ons-toolbar-button onclick="splitter_left.open()">
+                            <ons-icon icon="md-menu"></ons-icon>
+                        </ons-toolbar-button>
+                    </div>
+                    <div class="center" onclick="location.href='/';">
+                        <ons-icon icon="fa-home"></ons-icon>
+                    </div>
+                    <div class="right">
+                        <ons-toolbar-button onclick="splitter_right.open()">
+                            <ons-icon icon="fa-twitter-square"></ons-icon>
+                        </ons-toolbar-button>
+                    </div>
+                </ons-toolbar>
+                <h1>成果物</h1>
+                <p>
+                    日本詭弁連合運営にあたり得た副産物置き場
+                </p>
+                <ons-scroller>
+                    <ons-list>
+                        <ons-list-header>英文訳</ons-list-header>
+                        <ons-list-item modifier="tappable" onclick="window.location='contents/LASTorALowLatencyASAwareTorClient.pdf'">LASTor:自律システムを考慮した低遅延Torクライアント</ons-list-item>
+                        <ons-list-item modifier="tappable">CONTENTSXXXXXXX</ons-list-item>
+                        <ons-list-header>アイデアノート</ons-list-header>
+                        <ons-list-item modifier="tappable">CONTENTSXXXXXXX</ons-list-item>
+                    </ons-list>
+                </ons-scroller>
                 <ons-bottom-toolbar>
                     <div style="text-align: center; line-height: 44px">当サイトは一切責任を負いません</div>
                 </ons-bottom-toolbar>
