@@ -9,6 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <base target="_blank"></base>
         <title>日本詭弁連合</title>
         <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
         <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
@@ -51,7 +52,7 @@
                             日本詭弁連合
                         </ons-list-item>
                         <ons-list-item onclick="splitter_left.load('contents.html')">
-                            成果物
+                            コンテンツ
                         </ons-list-item>
                         <ons-list-item onclick="splitter_left.load('about.html')">
                             このサイトについて
@@ -82,7 +83,7 @@
                         </ons-toolbar-button>
                     </div>
                     <div class="center" onclick="location.href='/';">
-                        <ons-icon icon="fa-home"></ons-icon>
+                        <ons-icon style="color: blue" icon="fa-home"></ons-icon>
                     </div>
                     <div class="right">
                         <ons-toolbar-button onclick="splitter_right.open()">
@@ -107,18 +108,10 @@
                     <ons-list-header>リンク</ons-list-header>
                     <ons-list-item>
                         <div class="left">
-                            <ons-icon icon="fa-twitter" class="list-item__icon"></ons-icon>
-                        </div>
-                        <div class="center">
-                            <a href="https://twitter.com/RadicalFunction">twitter.com/RadicalFunction</a>
-                        </div>
-                    </ons-list-item>
-                    <ons-list-item>
-                        <div class="left">
                             <ons-icon icon="fa-github" class="list-item__icon"></ons-icon>
                         </div>
                         <div class="center">
-                            <a href="https://github.com/syakesaba/">github.com/syakesaba</a>
+                            <a href="https://github.com/syakesaba/">https://github.com/syakesaba/</a>
                         </div>
                     </ons-list-item>
                     <ons-list-item>
@@ -126,7 +119,7 @@
                             <ons-icon icon="fa-telegram" class="list-item__icon"></ons-icon>
                         </div>
                         <div class="center">
-                            <a href="https://telegram.me/syakesaba">telegram.me/syakesaba</a>
+                            <a href="https://telegram.me/syakesaba">https://telegram.me/syakesaba/</a>
                         </div>
                     </ons-list-item>
                 </ons-list>
@@ -160,8 +153,27 @@
                 <h2>日本詭弁連合会員一覧</h2>
                 <p>
                     ・SYA-KE </br>
-                    <b>・会員募集中</b></br>
                 </p>
+                <h2>関連しない秘密組織一覧</h2>
+                <ons-list>
+                    <ons-list-header>リンク集</ons-list-header>
+                    <ons-list-item>
+                        <div class="left">
+                            <ons-icon icon="globe" class="list-item__icon"></ons-icon>
+                        </div>
+                        <div class="center">
+                            <a href="http://freesomen.org/">フリーソーメン</a>
+                        </div>
+                    </ons-list-item>
+                    <ons-list-item>
+                        <div class="left">
+                            <ons-icon icon="globe" class="list-item__icon"></ons-icon>
+                        </div>
+                        <div class="center">
+                            <a href="http://maboroshi.pandora.nu/">まぼろし博覧会</a>
+                        </div>
+                    </ons-list-item>
+                </ons-list>
                 <ons-bottom-toolbar>
                     <div style="text-align: center; line-height: 44px">当サイトは一切責任を負いません</div>
                 </ons-bottom-toolbar>
@@ -192,16 +204,12 @@
                     <ons-list>
                         <ons-list-header>英文訳</ons-list-header>
                         <ons-list-item modifier="tappable" onclick="window.location='contents/LASTorALowLatencyASAwareTorClient.pdf'">LASTor:自律システムを考慮した低遅延Torクライアント</ons-list-item>
-                        <ons-list-item modifier="tappable">CONTENTSXXXXXXX</ons-list-item>
                         <ons-list-header>勉強ノート</ons-list-header>
                         <ons-list-item modifier="tappable" onclick="window.location='contents/deep-learning-from-scratch.pdf'" >DeepLearningFromSctratch</ons-list-item>
-                        <ons-list-item modifier="tappable">CONTENTSXXXXXXX</ons-list-item>
                         <ons-list-header>アイデアノート</ons-list-header>
-                        <ons-list-item modifier="tappable">CONTENTSXXXXXXX</ons-list-item>
-                        <ons-list-item modifier="tappable">CONTENTSXXXXXXX</ons-list-item>
+                        <ons-list-item modifier="tappable">pending</ons-list-item>
                         <ons-list-header>スライド</ons-list-header>
                         <ons-list-item modifier="tappable" onclick="window.location='contents/slides/scapy_protocol_development/'">Scapy Protocol Development</ons-list-item>
-                        <ons-list-item modifier="tappable">CONTENTSXXXXXXX</ons-list-item>
                     </ons-list>
                 </ons-scroller>
                 <ons-bottom-toolbar>
@@ -233,10 +241,10 @@
                 </p>
                 <h1>対応ブラウザについて</h1>
                 <p>
-                    WebページのレンダリングにOnsen UI2<a href="https://ja.onsen.io/">https://ja.onsen.io/</a>を使用しておりますので、InternetExplorer 11には対応しておりません。
+                    Webページのレンダリングに<a href="https://ja.onsen.io/">Onsen UI 2</a>を使用しておりますので、InternetExplorer 11には対応しておりません。
                 </p>
                 <h1>
-                    使用しているソフトウェア
+                    使用しているライブラリ
                 </h1>
                 <ons-scroller>
                     <ons-list>
