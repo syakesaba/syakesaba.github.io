@@ -48,9 +48,6 @@
                         <ons-list-item modifier="tappable" onclick="splitter_left.load('home.html')">
                             ホーム
                         </ons-list-item>
-                        <ons-list-item onclick="splitter_left.load('kiben.html')">
-                            日本詭弁連合
-                        </ons-list-item>
                         <ons-list-item onclick="splitter_left.load('contents.html')">
                             コンテンツ
                         </ons-list-item>
@@ -91,26 +88,29 @@
                         </ons-toolbar-button>
                     </div>
                 </ons-toolbar>
+                <h1>日本詭弁連合について</h1>
+                <p>
+                    日本詭弁連合（略：日弁連）はコンピュータにより認識できない「詭弁」を研究し</br>
+                    AIによる逆襲を未然に防ぐ秘密組織です。我々と共に世界を救いましょう。
+                </p>
+                <h1>日本詭弁連合の取り組み</h1>
+                <p>
+                    国内の<a href="https://docs.google.com/spreadsheets/d/1_SnFtVlX4Fbq4vwAbpYxTNL0B1HPGu6QoPbjDgdWL6Q/edit?usp=sharing">大学の論文リポジトリ</a>の徘徊を行い</br>
+                    明らかな詭弁を探し出し、あえてそれを正当化する。</br>
+                    論文は検索をしてはならず、リンクを辿りランダムに査読する。</br>
+                    CiNiiやGoogleを頼ってはならない。</br>
+                </p>
                 <ons-list>
-                    <ons-list-title>トップページ</ons-list-title>
-                    <ons-list-header>日本詭弁連合</ons-list-header>
-                    <ons-list-item>
-                        <div class="center">
-                            詭弁システム(作成中)
-                        </div>
-                        <!--
-                        <div class="left">
-                            <img src="images/syake.jpg" style="zoom:0.3;" />
-                        </div>
-                        <div class="center">
-                            <div align="center">私は日本の大学に<br>学士卒業論文の<br>実名公開を要求する</div>
-                        </div>
-                        <div class="right">
-                            <div align="center"></div>
-                        </div>
-                        -->
-                    </ons-list-item>
+                    <ons-list-title></ons-list-title>
                     <ons-list-header>リンク</ons-list-header>
+                    <ons-list-item>
+                        <div class="left">
+                            <ons-icon icon="fa-book" class="list-item__icon"></ons-icon>
+                        </div>
+                        <div class="center">
+                            <a href="https://bookmeter.com/users/952301">https://bookmeter.com/users/952301</a>
+                        </div>
+                    </ons-list-item>
                     <ons-list-item>
                         <div class="left">
                             <ons-icon icon="fa-github" class="list-item__icon"></ons-icon>
@@ -140,65 +140,7 @@
                             <ons-icon icon="key" class="list-item__icon"></ons-icon>
                         </div>
                         <div class="center">
-                            <pre>gpg --keyserver pgp.mit.edu --recv-keys </pre><a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x1077C73E23E7AD45">23E7AD45</a>
-                        </div>
-                    </ons-list-item>
-                </ons-list>
-                <ons-bottom-toolbar>
-                    <div style="text-align: center; line-height: 44px">当サイトは一切責任を負いません</div>
-                </ons-bottom-toolbar>
-            </ons-page>
-        </template>
-        <template id="kiben.html">
-            <ons-page>
-                <ons-toolbar>
-                    <div class="left">
-                        <ons-toolbar-button onclick="splitter_left.open()">
-                            <ons-icon icon="md-menu"></ons-icon>
-                        </ons-toolbar-button>
-                    </div>
-                    <div class="center" onclick="location.href='/';">
-                        <ons-icon style="color: blue" icon="fa-home"></ons-icon>
-                    </div>
-                    <div class="right">
-                        <ons-toolbar-button onclick="splitter_right.open()">
-                            <ons-icon icon="fa-twitter-square"></ons-icon>
-                        </ons-toolbar-button>
-                    </div>
-                </ons-toolbar>
-                <h1>日本詭弁連合</h1>
-                <p>
-                日本詭弁連合（略：日弁連）はコンピュータにより認識できない「詭弁」を研究し</br>
-                AIによる逆襲を未然に防ぐ秘密組織です。我々と共に世界を救いましょう。
-                </p>
-                <h2>日本詭弁連合会員一覧</h2>
-                <p>
-                    ・SYA-KE </br>
-                </p>
-                <h2>活動内容</h2>
-                <p>
-                    国内の<a href="https://docs.google.com/spreadsheets/d/1_SnFtVlX4Fbq4vwAbpYxTNL0B1HPGu6QoPbjDgdWL6Q/edit?usp=sharing">大学の論文リポジトリ</a>の徘徊を行い</br>
-                    明らかな詭弁を探し出し、あえてそれを正当化する。</br>
-                    論文は検索をしてはならず、リンクを辿りランダムに査読する。</br>
-                    CiNiiやGoogleを頼ってはならない。自力でコンテンツを探り当てなさい。
-                </p>
-                <h2>関連しない秘密組織一覧</h2>
-                <ons-list>
-                    <ons-list-header>リンク集</ons-list-header>
-                    <ons-list-item>
-                        <div class="left">
-                            <ons-icon icon="globe" class="list-item__icon"></ons-icon>
-                        </div>
-                        <div class="center">
-                            <a href="http://freesomen.org/">フリーソーメン</a>
-                        </div>
-                    </ons-list-item>
-                    <ons-list-item>
-                        <div class="left">
-                            <ons-icon icon="globe" class="list-item__icon"></ons-icon>
-                        </div>
-                        <div class="center">
-                            <a href="http://maboroshi.pandora.nu/">まぼろし博覧会</a>
+                            gpg&nbsp;--keyserver&nbsp;pgp.mit.edu&nbsp;--recv-keys&nbsp;<a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x1077C73E23E7AD45">23E7AD45</a>
                         </div>
                     </ons-list-item>
                 </ons-list>
@@ -267,6 +209,8 @@
                     当サイトが紹介しているウェブサイトやソフトウェア・アプリケーション・ツールの合法性、正確性、道徳性、最新性、適切性、著作権の許諾や有無など、その内容については一切の保証を致しかねます。
                     当サイトからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。
                 </p>
+                <h1>このサイトの管理者</h1>
+                SYA-KE&nbsp;(syakesaba)&nbsp;&nbsp;私は日本の大学に学士卒業論文の実名公開を要求する。
                 <h1>対応ブラウザについて</h1>
                 <p>
                     Webページのレンダリングに<a href="https://ja.onsen.io/">Onsen UI 2</a>を使用しておりますので、InternetExplorer 11には対応しておりません。
