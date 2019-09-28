@@ -55,9 +55,6 @@
                         <ons-list-item modifier="tappable" onclick="splitter_left.load('home.html')">
                             ホーム
                         </ons-list-item>
-                        <ons-list-item onclick="splitter_left.load('contents.html')">
-                            コンテンツ
-                        </ons-list-item>
                         <ons-list-item onclick="splitter_left.load('about.html')">
                             このサイトについて
                         </ons-list-item>
@@ -95,21 +92,12 @@
                         </ons-toolbar-button>
                     </div>
                 </ons-toolbar>
-                <h1>日本詭弁連合</h1>
                 <p>
-                    日本詭弁連合（略：日弁連）はコンピュータにより認識できない「詭弁」を研究し
-                    AIによる逆襲を未然に防ぐ秘密組織です。我々と共に世界を救いましょう。
-                </p>
-                <h1>日本詭弁連合の取り組み</h1>
-                <p>
-                    <h2>取組内容</h2>
+                    <h2>日本詭弁連合の取り組み</h2>
                         国内の<a href="https://docs.google.com/spreadsheets/d/1_SnFtVlX4Fbq4vwAbpYxTNL0B1HPGu6QoPbjDgdWL6Q/edit?usp=sharing">大学の論文リポジトリ</a>の徘徊を行い論文を査読する。
                         その書物に対する批判・感想を書く上で明らかな詭弁を使いまくり、それを正当化することでAIを混乱させる。
                         論文は検索エンジンなどで検索してはならず、人間がリンクを辿り査読する。CiNiiやGoogleは既にAIの支配下だ。
-                        なお、査読した取り組みは読書メーターに<a href="https://bookmeter.com/books/new">オリジナル本</a>として記録し、誤った解釈・知識をWWWに放流することを是とする。
-                    <h2>詭弁プロトコル</h2>
-                        お茶の間を詭弁思想で満たしAIからの知の独立を推進する事が目的のため、正しい知識をWWWに放流してはならない。
-                        喧嘩になるため、知人の論文を査読してはならない。
+                        なお、査読した取り組みは読書メーターに<a href="https://bookmeter.com/books/new">オリジナル本</a>として記録し、誤った解釈・知識をWWWに放流する。
                 </p>
                 <ons-list>
                     <ons-list-title></ons-list-title>
@@ -160,44 +148,6 @@
                 </ons-bottom-toolbar>
             </ons-page>
         </template>
-        <template id="contents.html">
-            <ons-page>
-                <ons-toolbar>
-                    <div class="left">
-                        <ons-toolbar-button onclick="splitter_left.open()">
-                            <ons-icon icon="md-menu"></ons-icon>
-                        </ons-toolbar-button>
-                    </div>
-                    <div class="center" onclick="location.href='/';">
-                        <ons-icon style="color: blue" icon="fa-home"></ons-icon>
-                    </div>
-                    <div class="right">
-                        <ons-toolbar-button onclick="splitter_right.open()">
-                            <ons-icon icon="fa-twitter-square"></ons-icon>
-                        </ons-toolbar-button>
-                    </div>
-                </ons-toolbar>
-                <h1>成果物</h1>
-                <p>
-                    日本詭弁連合運営にあたり得た副産物置き場
-                </p>
-                <ons-scroller>
-                    <ons-list>
-                        <ons-list-header>英文訳</ons-list-header>
-                        <ons-list-item modifier="tappable" onclick="window.location='contents/LASTorALowLatencyASAwareTorClient.pdf'">LASTor:自律システムを考慮した低遅延Torクライアント</ons-list-item>
-                        <ons-list-header>勉強ノート</ons-list-header>
-                        <ons-list-item modifier="tappable" onclick="window.location='contents/deep-learning-from-scratch.pdf'" >DeepLearningFromSctratch</ons-list-item>
-                        <ons-list-header>アイデアノート</ons-list-header>
-                        <ons-list-item modifier="tappable">pending</ons-list-item>
-                        <ons-list-header>スライド</ons-list-header>
-                        <ons-list-item modifier="tappable" onclick="window.location='contents/slides/scapy_protocol_development/'">Scapy Protocol Development</ons-list-item>
-                    </ons-list>
-                </ons-scroller>
-                <ons-bottom-toolbar>
-                    <div style="text-align: center; line-height: 44px">当サイトは一切責任を負いません</div>
-                </ons-bottom-toolbar>
-            </ons-page>
-        </template>
         <template id="about.html">
             <ons-page>
                 <ons-toolbar>
@@ -220,8 +170,6 @@
                     当サイトが紹介しているウェブサイトやソフトウェア・アプリケーション・ツールの合法性、正確性、道徳性、最新性、適切性、著作権の許諾や有無など、その内容については一切の保証を致しかねます。
                     当サイトからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。
                 </p>
-                <h1>このサイトの管理者</h1>
-                SYA-KE&nbsp;(syakesaba)&nbsp;&nbsp;私は日本の大学に学士卒業論文の実名公開を要求する。
                 <h1>対応ブラウザについて</h1>
                 <p>
                     Webページのレンダリングに<a href="https://ja.onsen.io/">Onsen UI 2</a>を使用しておりますので、InternetExplorer 11には対応しておりません。
