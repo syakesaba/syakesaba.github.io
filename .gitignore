@@ -74,3 +74,4 @@ build/pdepend
 *.bak
 
 /.well-known
+chown.sh
