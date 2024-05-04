@@ -1,0 +1,18 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: pakemon@syakesaba.com
+Expires: 2099-01-01T00:00:00.000Z
+Preferred-Languages: en
+Policy: -
+Acknowledgements: -
+Hiring: -
+Canonical: https://syakesaba.com/security.txt
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/6A03845DA917BE3EB94FB4F1C2A997E777
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQRqA4RdqRe+PrlPtPHCqZfnd4YPxQUCZjIieQAKCRDCqZfnd4YP
+xbOhAQDPeWPBUAspk9nl3P8dTsfmWyuLXCaipC9yvmWmOTXF4gD/Y+gffxsYnZtw
+ecUgL/gZM2d86vmV2KkHoiVx5WCsHwI=
+=KRCN
+-----END PGP SIGNATURE-----
